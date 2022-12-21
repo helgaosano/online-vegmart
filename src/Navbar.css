@@ -1,0 +1,37 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem;
+    background-color: #86BC42;
+    color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-components {
+      margin-top: auto;
+      margin-bottom: auto;
+      display: flex;
+      flex-direction: row;
+      margin-left: 400px;
+      justify-content:space-between;
+  }
+  
+  .nav-components h2 {
+      margin-left: 20px;
+  } 
+  
+  ul {
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  ul li {
+      list-style: none;
+      margin-left: 62px;
+      margin-top: 27px;
+      font-size: 18px;
+  }
+  

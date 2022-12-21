@@ -1,5 +1,5 @@
-
 import React from "react";
+import "../Navbar.css"
 import { NavLink} from 'react-router-dom'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
