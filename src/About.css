@@ -1,0 +1,29 @@
+.content {
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.info {
+    margin-top: 30px;
+}
+.info p {
+    font-size: 18px;
+    justify-content: space-around;
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+}
