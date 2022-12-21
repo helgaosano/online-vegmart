@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../Signup.css"
 
 export const Signup = (props) => {
     const [email, setEmail] = useState('');
@@ -22,7 +23,7 @@ export const Signup = (props) => {
             <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="********" id="password" name="password" />
             <button type="submit"><b>Login</b></button>
         </form>
-        <button className="link-btn" onClick={() => props.onFormSwitch('login')}>Already have an account? Login here.</button>
+        <button className="link" onClick={() => props.onFormSwitch('login')}>Already have an account? Login here.</button>
     </div>
     )
 }
