@@ -15,7 +15,7 @@ function App() {
         <Route path="/home/about" element={<About/>}exact/>
         <Route path="/products" element={<Products/>}exact/>
         <Route path="/carts" element={<Cart/>}exact />
-        {/* <Route path="/components/login" element={<Login/>} exact /> */}
+        <Route path="/components/login" element={<Login/>} exact />
       </Routes>
       </div>
       /* // </BrowserRouter> */
