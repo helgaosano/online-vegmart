@@ -20,6 +20,9 @@ function Navbar(){
                 <li>
                     <AnchorLink to="/components/about">About</AnchorLink>
                 </li>
+                <li>
+                    <NavLink to="/products">Products</NavLink>
+                </li>
                
                 <li>
                     <NavLink to="/components/login">Login</NavLink>
