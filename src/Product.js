@@ -1,19 +1,30 @@
 import React, { useEffect, useState} from "react";
-import { Container, Row, Col} from "react-bootstrap";
 // import ProductNav from "./components/ProductNav";
 import ProductCard from "./components/ProductCard";
 // import './Product.css'
+// import Search from "./components/Search";
 
-const Product = () => {
+const Product = ({handlerGetClickedItem}) => {
+  // handling add to cart
   const [products, setProducts] = useState([""]);
-
+  
   useEffect(() => {
     fetch('http://localhost:3000/products')
       .then((r) => r.json())
-      .then((products) =>setProducts(products));
-  }, []);
+      .then((products) => setProducts(products))
+  },[]);
 
-//   use POST for cart
+  // handling search
+const [filter, setFilter] = useState("")
+  
+let filteredProducts = products.filter((product) => {
+let result = product.name === filter
+return result
+})
+
+const newArr = filter ? filteredProducts : products
+
+
 
 
 return (
@@ -22,18 +33,14 @@ return (
     {/* <ProductNav /> */}
     </div>
 
-<div className="cardinfo">
-    {/* <Container>
-        <Row> */}
-          <h2>View our available products</h2>
-          {products.map((product) => {
-          // <Col xs={12} md={4}className='p-5'>
-         return (<ProductCard product={product} key={product.id}/>)
-
-          // </Col>
-          })}
-        {/* </Row>
-    </Container>  */}
+<div className="container">
+        <h2>View our available products</h2>
+        {/* <Search filter={filter} onSetFilter={setFilter}/> */}
+        <div className="cardinfo">
+          {newArr.map((product) => (
+         (<ProductCard handleClickedItem={handlerGetClickedItem} product={product} key={product.id}/>)
+          ))}
+        </div>
     </div>
   </>
 )
