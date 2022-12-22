@@ -1,6 +1,6 @@
 ## Vegmart
 
-### Developer: Tania Osano
+### Developer - Tania Osano
 
 ## Project Description
 
