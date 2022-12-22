@@ -8,9 +8,17 @@ Vegmart is an organic grocery application providing consumers with fresh natural
 
 ## Website Screenshot
 
+### Signup Page
+
 ![SignUp page](./src/images/signuppage.png    "get to sign up")
 
+### Login Page
+
+![Login page](./src/images/loginpage.png    "get to login")
+
 ## Working Process
+
+
 
 ## SetUp
 
