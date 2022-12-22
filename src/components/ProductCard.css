@@ -1,0 +1,32 @@
+.card {
+    height: 50%;
+    width: 25%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    position: relative;
+    float: left;
+    flex-direction: row; 
+    display: block;
+    
+}
+
+.card img {
+    width: 250px;
+    height: 200px;
+}
+
+.card h3{
+    font-size: 20px;
+}
+.card h6{
+    font-size: 14px;
+    justify-content:space-between;
+    padding: 4px;
+    color: grey;
+}
+
