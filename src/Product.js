@@ -1,7 +1,7 @@
 import React, { useEffect, useState} from "react";
-// import ProductNav from "./components/ProductNav";
+import ProductNav from "./components/ProductNav";
 import ProductCard from "./components/ProductCard";
-// import './Product.css'
+import './Product.css'
 // import Search from "./components/Search";
 
 const Product = ({handlerGetClickedItem}) => {
@@ -30,7 +30,7 @@ const newArr = filter ? filteredProducts : products
 return (
   <>
     <div>
-    {/* <ProductNav /> */}
+    <ProductNav />
     </div>
 
 <div className="container">

@@ -12,7 +12,7 @@
     float: left;
     flex-direction: row; 
     display: block;
-    
+    border-radius: 30px;
 }
 
 .card img {
