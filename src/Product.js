@@ -2,7 +2,7 @@ import React, { useEffect, useState} from "react";
 import ProductNav from "./components/ProductNav";
 import ProductCard from "./components/ProductCard";
 import './Product.css'
-// import Search from "./components/Search";
+import Search from "./components/Search";
 
 const Product = ({handlerGetClickedItem}) => {
   // handling add to cart
@@ -35,7 +35,7 @@ return (
 
 <div className="container">
         <h2>View our available products</h2>
-        {/* <Search filter={filter} onSetFilter={setFilter}/> */}
+        <Search filter={filter} onSetFilter={setFilter}/>
         <div className="cardinfo">
           {newArr.map((product) => (
          (<ProductCard handleClickedItem={handlerGetClickedItem} product={product} key={product.id}/>)

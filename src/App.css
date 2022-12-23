@@ -55,3 +55,20 @@ h2 {
   cursor: pointer;
   color: white;
 }
+/* footer section */
+.footer-section1{
+  background-color:bisque;
+  height: 80px;
+}
+.footer-section2{
+  background-color:rgb(163, 90, 1);
+}
+.footer-section3 h3{
+  
+  text-align: center;
+}
+.footer-section3 section{
+  
+  text-align: center;
+  size: 100px;
+}
