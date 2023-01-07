@@ -1,48 +1,105 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaSkype } from "react-icons/fa"
+// import 'bootstrap/dist/css/bootstrap.min.css'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaSkype, FaHome, FaPhoneAlt, FaEnvelope } from "react-icons/fa"
 import '../App.css'
 
 function Footer() {
 
     return (
-        <div className='footer-section1'>
-            <div className='footer-section2'>
-                
-                {/* <div className='section'>
-                <h1>PARTNERSHIP</h1>
-                    <ul> 
-                    <li>Websites</li> 
-                    <li>Social media</li>
-                    <li>blogs</li>
-                    </ul>
+        <div className="dark">
+        {/* <div className="container">
+
+            <div className="row py-5 text-white">
+
+                <div className="col-md-3 col-sm-12">
+                    <h4 className="text-warning">VegMart</h4>
+                    <p>Your one stop organics store.</p>
                 </div>
 
-                <h1>OUR BRANCHES</h1>
-                <ul>
-                   <li>Nairobi</li> 
-                   <li>Malindi</li>
-                   <li>Naivasha</li>
-                </ul>
-                
-                <h1>CONTACT US</h1>
-                <ul>
-                   <li>+2547 002 000 999</li> 
-                   <li>Keystone Park Riverside, Nairobi</li>
-                   <li>www.vegmartonline.org</li>
-                </ul> */}
+                <div className="col-md-3 col-sm-12">
+                    <h4 className="text-warning">Our Services</h4>
+                    <p>About us</p>
+                    <p>Return Policy</p>
+                    <p>Customer satisfaction</p>
+                </div>
+
+                <div className="col-md-3 col-sm-12">
+                    <h4 className="text-warning">Quick Links</h4>
+                    <p>Our categories</p>
+                    <p>Our Products</p>
+                    <p>Our Offers</p>
+                    <p>Contact Us</p>
+                </div>
+                <div className="col-md-3 col-sm-12">
+                    <h4 className="text-warning">Contact Us</h4>
+                    <FaHome className="me-4" /> West End Place, Nairobi. <br/>
+                    <FaPhoneAlt className="me-4" /> +(254) 30 6050190 <br />
+                    <FaEnvelope className="me-4" /> info@vegmart.co.ke <br />    
+                </div>
             </div>
-            <div className='footer-section3'>
-                <h3>Created by: <span>Tania Osano</span> AllRightsReserved @2022</h3>
+
+            <p className="text-white pb-5">Created by: <span>Tania Osano</span> @All Rights Reserved 2022 <br />
+                <FaFacebook className='text-white me-2 '/> 
+                <FaInstagram className='text-white me-2'/>
+                <FaLinkedin className='text-white me-2'/> 
+                <FaTwitter className='text-white me-2'/>
+                <FaSkype className='text-white me-2'/>
+            </p>
             
-                <section>
-                    <FaFacebook/> 
-                    <FaInstagram/>
-                    <FaLinkedin/> 
-                    <FaTwitter/>
-                    <FaSkype/> 
-                </section>
+        </div> */}
+
+
+
+        <div className="container1">
+
+        <div className="footer-section">
+
+            <div className="section2">
+                <h4 className="heading">VegMart</h4>
+                <p>Your one stop organics store.</p>
+            </div>
+
+            <div className="section1">
+                <h4 className="heading">Our Services</h4>
+                <p>About us</p>
+                <p>Return Policy</p>
+                <p>Customer satisfaction</p>
+            </div>
+
+            <div className="section1">
+                <h4 className="heading">Quick Links</h4>
+                <p>Our categories</p>
+                <p>Our Products</p>
+                <p>Our Offers</p>
+                <p>Contact Us</p>
+            </div>
+            <div className="section2">
+                <h4 className="heading">Contact Us</h4>
+                <FaHome className="info" /> West End Place, Nairobi. <br/>
+                <FaPhoneAlt className="info" /> +(254) 30 6050190 <br />
+                <FaEnvelope className="info" /> info@vegmart.co.ke <br />    
             </div>
         </div>
+
+        <div className="footer-end">
+            <div className="copyright">            
+                <p > Tania Osano @ All Rights Reserved<br /></p>
+            </div>
+            
+            <div className="icons">
+                <FaFacebook /> <span></span>
+                <FaInstagram /> <span></span>
+                <FaLinkedin /> <span></span>
+                <FaTwitter /> <span></span>
+                <FaSkype /> <span></span>
+            </div>
+        </div>
+
+    </div> 
+       
+
+    </div>
+
     )
 
 }

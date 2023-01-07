@@ -3,9 +3,9 @@ import { Button } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import '../ProductCard.css'
 
-function ProductCard({product, handlerGetClickedItem}) {
+function ProductCard({product, handlerGetClickedItem}){
 
-  let navigate=useNavigate()
+  let navigate = useNavigate()
 
   return (
     <>
@@ -20,7 +20,7 @@ function ProductCard({product, handlerGetClickedItem}) {
       </div>
     </div>
     </>
-  )
+  ) 
   
 }
 

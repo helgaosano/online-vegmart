@@ -2,8 +2,8 @@ import React from "react";
 import { useNavigate } from 'react-router-dom';
 import Navbar from "../components/Navbar";
 import About from "../components/About";
-import Footer from "../components/Footer";
 import '../App.css';
+import Footer from "../components/Footer";
 
 function Home(){
   
@@ -12,7 +12,7 @@ function Home(){
         <>
         <Navbar/>
         
-        <div className='Home text-center'>
+        <div className='Home '>
          <div className='text'>
            <h3>Freshly produced products.<br/>From small organic farms<br/>to your table.</h3>
          </div> 
@@ -21,7 +21,7 @@ function Home(){
          </div>
         </div>
         <About />
-        <Footer />
+        <Footer/>
         </>
   )
 }

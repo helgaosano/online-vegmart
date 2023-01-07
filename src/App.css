@@ -5,7 +5,7 @@
 }
 .Home{
   background-image: url("https://img.freepik.com/premium-photo/grocery-shopping-white-background-vegetables-fruits-juice-bottles-bread-paper-bags_439094-1.jpg?w=2000");
-  height: 100vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size:cover;
 
@@ -55,20 +55,76 @@ h2 {
   cursor: pointer;
   color: white;
 }
-/* footer section */
-.footer-section1{
-  background-color:bisque;
+
+/* styling footer section */
+
+.container1{
+  background-color: rgb(22, 21, 29);
+  margin-top: 40px;
+  align-items: center;
+  align-content: space-between;
+}
+
+.footer-section{
+  /* background-color: aqua; */
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: 1px solid rgb(104, 103, 103);;
+}
+
+.heading{
+color: rgb(228, 148, 1);
+font-size: larger;
+}
+
+.section1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color:rgb(163, 90, 1); */
+  color: rgb(104, 103, 103);
+  font-size: 18px;
+  margin-left: 20px;
+  height: 300px;
+  width: 30%;
+  margin-right: 30px;
+}
+
+.section1 p{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.section2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* background-color:rgb(163, 90, 1); */
+  color: rgb(104, 103, 103);
+  font-size: 18px;
+  height: 300px;
+  width: 38%;
+}
+
+.section2 p{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.footer-end{
   height: 80px;
+  display: flex;
+  /* background-color:rgb(22, 21, 29) ; */
+  /* color: white; */
 }
-.footer-section2{
-  background-color:rgb(163, 90, 1);
+.copyright{
+  margin-top: 20px;
+  color: rgb(104, 103, 103);
+  margin-left: 100px;
 }
-.footer-section3 h3{
-  
-  text-align: center;
-}
-.footer-section3 section{
-  
-  text-align: center;
-  size: 100px;
+
+.icons{
+  margin-top: 20px;
+  font-size: 30px;
+  margin-left: 630px;
+  color: rgb(104, 103, 103);
 }
