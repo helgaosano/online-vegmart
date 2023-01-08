@@ -61,16 +61,16 @@ function Footer() {
 
             <div className="section1">
                 <h4 className="heading">Our Services</h4>
-                <p>About us</p>
                 <p>Return Policy</p>
-                <p>Customer satisfaction</p>
+                <p>Customer Satisfaction</p>
+                <p>Certified Organics Offers</p>
             </div>
 
             <div className="section1">
                 <h4 className="heading">Quick Links</h4>
                 <p>Our categories</p>
                 <p>Our Products</p>
-                <p>Our Offers</p>
+                <p>About Us</p>
                 <p>Contact Us</p>
             </div>
             <div className="section2">
@@ -81,7 +81,7 @@ function Footer() {
             </div>
         </div>
 
-        <div className="footer-end">
+         <div className="footer-end">
             <div className="copyright">            
                 <p > Tania Osano @ All Rights Reserved<br /></p>
             </div>

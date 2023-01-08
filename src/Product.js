@@ -3,7 +3,7 @@ import ProductNav from "./components/ProductNav";
 import ProductCard from "./components/ProductCard";
 import './Product.css'
 import Search from "./components/Search";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const Product = ({handlerGetClickedItem}) => {
   // handling add to cart
@@ -28,7 +28,8 @@ const newArr = filter ? filteredProducts : products
 return (
   <>
     <div>
-    <ProductNav />
+    {/* <ProductNav /> */}
+    < Navbar />
     </div>
 
 <div className="container">
@@ -39,8 +40,9 @@ return (
          (<ProductCard handleClickedItem={handlerGetClickedItem} product={product} key={product.id}/>)
           ))}
         </div>
-    </div>  
+    </div> 
   </>
+  
 )
 
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../Navbar.css'
 import { NavLink } from 'react-router-dom'
 
 function ProductNav(){
@@ -13,13 +13,13 @@ function ProductNav(){
                 
             <ul>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">HOME</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/products">Products</NavLink>
+                    <NavLink to="/products">PRODUCTS</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/carts">Cart</NavLink>
+                    <NavLink to="/carts">CART</NavLink>
                 </li>
             </ul>  
             </div>

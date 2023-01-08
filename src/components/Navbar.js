@@ -1,7 +1,10 @@
 import React from "react";
 import "../Navbar.css"
 import { NavLink} from 'react-router-dom'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { FaHome } from "react-icons/fa"
+import { TiUser} from "react-icons/ti"
+
+
 
 function Navbar(){
 
@@ -15,17 +18,16 @@ function Navbar(){
             <div className="nav-components">    
             <ul>
                 <li>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/"><b>HOME</b></NavLink>
                 </li>
                 <li>
-                    <AnchorLink to="/components/about">About</AnchorLink>
+                    <NavLink to="/products">PRODUCTS</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/products">Products</NavLink>
+                    <NavLink to="/components/contact">CONTACT</NavLink>
                 </li>
-               
                 <li>
-                    <NavLink to="/components/login">Login</NavLink>
+                     <NavLink to="/components/login">LOGIN</NavLink>
                 </li>
             </ul>  
             </div>

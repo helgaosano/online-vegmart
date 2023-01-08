@@ -39,7 +39,7 @@ export const LoginForm = (props, {onLogin}) => {
             <h2>Login</h2>
             <form className="login-form" onSubmit={handleSubmit}>
                 <label htmlFor="email_address">email</label>
-                <input value={email_address} onChange={(e) => setEmailAddress(e.target.value)}type="email_address" placeholder="youremail@gmail.com" id="email_address" name="email_address" />
+                <input value={email_address} onChange={(e) => setEmailAddress(e.target.value)}type="email_address" placeholder="youremail@gmail.com" id="email_address" name="email_address" required/>
                 <label htmlFor="password">password</label>
                 <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 {/* <button type="submit"><b>Login</b></button> */}

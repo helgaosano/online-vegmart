@@ -12,13 +12,15 @@ function Home(){
         <>
         <Navbar/>
         
-        <div className='Home '>
-         <div className='text'>
-           <h3>Freshly produced products.<br/>From small organic farms<br/>to your table.</h3>
-         </div> 
-         <div className="link-btn">
+        <div className='Home'>
+          {/* <div className='text'>
+            <div className="tagline">
+              <h3>Freshly produced products.<br/>From small organic farms<br/>to your table.</h3>
+            </div>
+         </div>   */}
+         {/* <div className="link-btn">
           <button onClick={() => {navigate ('/about')} }  type="button" className="btn btn-success mt-3"><b>Get Started</b></button> 
-         </div>
+         </div>  */}
         </div>
         <About />
         <Footer/>

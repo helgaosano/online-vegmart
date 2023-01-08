@@ -1,3 +1,11 @@
+.about-container {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.about-container h2{
+    color:rgb(230, 151, 5);
+}
 .content {
     margin-top: 40px;
     align-items: center;
@@ -19,6 +27,7 @@
 .image {
     display: flex;
     justify-content: space-between;
+    margin-right: 20px;
 }
 .image img{
     display: block;

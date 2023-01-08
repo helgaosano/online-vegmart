@@ -23,20 +23,16 @@ button {
  cursor: pointer;
  color: white;
 }
-.text {
- text-align:left;
- font-size: 25px;
-}
-
 h2 {
  text-align: center;
  font-size: 30px;
 }
 
-/*styling home section*/
+/* ============== styling home section ============== */
 
 .text{
   position: relative;
+  background-color: yellow;
 }
 
 .text h3 {
@@ -56,7 +52,7 @@ h2 {
   color: white;
 }
 
-/* styling footer section */
+/* ============== styling footer section ============== */
 
 .container1{
   background-color: rgb(22, 21, 29);
@@ -79,29 +75,29 @@ font-size: larger;
 }
 
 .section1{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   /* background-color:rgb(163, 90, 1); */
   color: rgb(104, 103, 103);
   font-size: 18px;
   margin-left: 20px;
-  height: 300px;
+  height: 250px;
   width: 30%;
   margin-right: 30px;
 }
 
 .section1 p{
   padding-top: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 2px;
 }
 
 .section2{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
   /* background-color:rgb(163, 90, 1); */
   color: rgb(104, 103, 103);
   font-size: 18px;
-  height: 300px;
+  height: 250px;
   width: 38%;
 }
 
@@ -127,4 +123,7 @@ font-size: larger;
   font-size: 30px;
   margin-left: 630px;
   color: rgb(104, 103, 103);
+}
+.icons:hover{
+  cursor: pointer;
 }

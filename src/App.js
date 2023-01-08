@@ -5,6 +5,7 @@ import Products from './Product'
 import Cart from './pages/Cart'
 import Login from './components/Login';
 import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { useState, useEffect} from 'react';
 
@@ -41,6 +42,7 @@ const handlerGetClickedItem = (event) =>{
       <Route path="/products" element={<Products handleClickedItem={handlerGetClickedItem}/>}exact/>
       <Route path="/carts" element={<Cart/>}exact />
       <Route path="/components/login" element={<Login  onLogin={handleLogin}/>} exact />
+      <Route path="/components/contact" element={<Contact />}exact />
     </Routes>
     {/* <Footer /> */}
     </div>
