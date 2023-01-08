@@ -15,7 +15,7 @@ function Home(){
         <div className='Home'>
           <div className='text'>
             <div className="tagline">
-              <h3>From small organic farms to your table.</h3>
+              <h3>From small organic farms to your table</h3>
             </div>
          </div>  
          {/* <div className="link-btn">

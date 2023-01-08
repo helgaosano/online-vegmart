@@ -4,6 +4,7 @@ import ProductCard from "./components/ProductCard";
 import './Product.css'
 import Search from "./components/Search";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const Product = ({handlerGetClickedItem}) => {
   // handling add to cart
@@ -32,15 +33,18 @@ return (
     < Navbar />
     </div>
 
-<div className="container">
+    <div className="container">
         <h2>View our available products</h2>
         <Search filter={filter} onSetFilter={setFilter}/>
-        <div className="cardinfo">
+    </div>
+    <div className="main-container">
+
+      <div className="cardinfo">
           {newArr.map((product) => (
          (<ProductCard handleClickedItem={handlerGetClickedItem} product={product} key={product.id}/>)
           ))}
-        </div>
-    </div> 
+      </div>
+      </div> 
   </>
   
 )
