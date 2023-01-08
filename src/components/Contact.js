@@ -1,7 +1,8 @@
 import React, { useRef } from 'react'
 import '../Contact.css'
-// import { useRef } from 'react'
+import Footer from './Footer'
 import emailjs from '@emailjs/browser'
+import Navbar from './Navbar'
 
 const Contact = () => {
 
@@ -25,6 +26,8 @@ const Contact = () => {
 
 
   return (
+    <>
+    <Navbar/>
     <section>
         <div className="contact-container">
             {/* <div className="header">
@@ -36,11 +39,17 @@ const Contact = () => {
             </div>
 
             <form ref={form} onSubmit={sendEmail} className="form">
+            <div className="location">
+                    <h4>LOCATION: Nairobi, Kenya: TEL +2547306050190</h4>
+                </div>
+
                 <label htmlFor="your_name">YOUR NAME</label>
                 <input type="text" placeholder="Your Name" name="your_name" required/>
+                <label htmlFor="email">EMAIL</label>
                 <input type="email" placeholder="Email" name="email" required/>
-                <input type="text" placeholder="Phone" name="PHONE" required/>
-                <textarea name="your_message" cols="30" rows="10"></textarea>
+                <label htmlFor="phone">PHONE</label>
+                <input type="text" placeholder="Phone" name="phone" required/>
+                <textarea type="text" name="your_message" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
                 <div className="message-btn">
                     <button type="submit" ><b>SEND</b></button>
                 </div>
@@ -48,6 +57,8 @@ const Contact = () => {
 
         </div>
     </section>
+    <Footer/>
+    </>
   )
 }
 

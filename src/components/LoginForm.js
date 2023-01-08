@@ -38,9 +38,9 @@ export const LoginForm = (props, {onLogin}) => {
         <div className="auth-form-container">
             <h2>Login</h2>
             <form className="login-form" onSubmit={handleSubmit}>
-                <label htmlFor="email_address">email</label>
+                <label htmlFor="email_address">Email</label>
                 <input value={email_address} onChange={(e) => setEmailAddress(e.target.value)}type="email_address" placeholder="youremail@gmail.com" id="email_address" name="email_address" required/>
-                <label htmlFor="password">password</label>
+                <label htmlFor="password">Password</label>
                 <input value={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="********" id="password" name="password" />
                 {/* <button type="submit"><b>Login</b></button> */}
                 <button className="btn btn-outline-success btn-md m-2" >

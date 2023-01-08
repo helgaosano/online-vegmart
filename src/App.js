@@ -6,7 +6,6 @@ import Cart from './pages/Cart'
 import Login from './components/Login';
 import About from './components/About';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import { useState, useEffect} from 'react';
 
 function App() {
@@ -36,6 +35,7 @@ const handlerGetClickedItem = (event) =>{
   return (
     // <BrowserRouter>
     <div className="App">
+      {/* <Navbar/> */}
     <Routes>
       <Route path="/" element={<Home />} exact />
       <Route path="/home/about" element={<About/>}exact/>
