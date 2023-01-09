@@ -76,14 +76,14 @@ function Footer() {
             <div className="section2">
                 <h4 className="heading">Contact Us</h4>
                 <FaHome className="info" /> West End Place, Nairobi. <br/>
-                <FaPhoneAlt className="info" /> +(254) 30 6050190 <br />
+                <FaPhoneAlt className="info" /> +(254) 792 596040 <br />
                 <FaEnvelope className="info" /> info@vegmart.co.ke <br />    
             </div>
         </div>
 
          <div className="footer-end">
             <div className="copyright">            
-                <p > Tania Osano @ All Rights Reserved<br /></p>
+                <p > <b>Tania Osano</b> @ All Rights Reserved 2023</p>
             </div>
             
             <div className="icons">

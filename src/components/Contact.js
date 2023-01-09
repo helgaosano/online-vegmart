@@ -40,7 +40,7 @@ const Contact = () => {
 
             <form ref={form} onSubmit={sendEmail} className="form">
             <div className="location">
-                    <h4>LOCATION: Nairobi, Kenya: TEL +2547306050190</h4>
+                    <h4>LOCATION: Nairobi, Kenya: TEL +254792596040</h4>
                 </div>
 
                 <label htmlFor="your_name">YOUR NAME</label>
