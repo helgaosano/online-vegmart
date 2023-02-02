@@ -48,7 +48,7 @@ export const LoginForm = (props, {onLogin}) => {
                 </button>
             </form>
             {/* <button className="link-btn" onClick={() => history('/signup')}>Don't have an account? Sign up here.</button> */}
-            <button className="link" onClick={() => props.onFormSwitch('signup')}>Don't have an account? Sign up here.</button>
+            <button className="link" onClick={() => props.onFormSwitch('signup')}>Don't have an account? <b> Sign up here.</b></button>
         </div>
     )
 }

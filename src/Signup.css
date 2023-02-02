@@ -1,13 +1,22 @@
 .auth-form-container {
     padding: 2em;
     border: 1px solid white;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     color: #000000;
-    background-color:#d3d1d1;
+    /* background-color: rgba(182, 180, 180, 0.185);; */
     margin: 6em;
     margin-left: 28em;
     margin-right: 28em;
-    border-radius: 2em;
+    border-radius: 0.8em;
+    border-color: #000000;
+    opacity: 0.8;
+  }
+
+  .signup-form a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
   }
 
 .auth-form-container, .login-form, .signup-form {
@@ -25,6 +34,7 @@ input {
   padding: 1rem;
   border:#000000;
   border-radius: 10px;
+  
 }
 
 button {

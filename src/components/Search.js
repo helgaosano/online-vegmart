@@ -7,7 +7,7 @@ function Search({filter, OnSetFilter}){
     const [category, setCategory] = useState([]);
 
     useEffect(() => {
-        fetch("/categories")
+        fetch("http://localhost:3000/categories")
         .then((r) => r.json())
         .then((cat) => setCategory(cat));
     }, []);

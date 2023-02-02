@@ -1,47 +1,86 @@
-.contact-container{
-    /* background-color: rgb(146, 108, 132); */
-    background-color:#4561;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-    display: flex;
-    margin-bottom: 10%;
+.contact-header{
+    width: 60%;
+    height: 140px;
+    margin-top: 5px;
+    margin-left: 20%;
+    /* background-color: black; */
 }
-.location{
-    background-color: rgba(0, 0, 0, 0.966);
-    display: flex;
-    width: 100%;
-    height: 30px;
-    margin-bottom: 10px;
+.contact-header h1{
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+    color:  rgba(2, 2, 56, 0.966);
 }
-.location h4{
-    color: #ffffff;
-    opacity: 0.7;
-    margin-top: 6px;
-    font-size: 16px;
+.new-title{
+    padding-top: 40px;
+    text-align: center;
+    color:  rgba(2, 2, 56, 0.966);
 }
-.form{
-    background-color: rgba(83, 122, 131, 0.082);;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    width: 100%;
-    padding: 20px;
 
+.super-container{
+    background-color: rgba(182, 180, 180, 0.185);
+    height: 800px;
+    background-size: cover;
+}
+
+.form{
+    background-color: white;
+    margin-left: 20px;
+    margin-left: 27%;
+    margin-right: 27%;
+    width: 46%;
+    height: 600px;
+    padding: 20px;
+    border-radius: 6px;
+    border-style: none;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgba(158, 157, 157, 0.514);
 }
 input{
     display: flex;
     width: 100%;
-    height: 20px;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    border-style: none;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgba(158, 157, 157, 0.514);
 }
+.last-input{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    border-style: none;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgba(158, 157, 157, 0.514);
+}
+input::placeholder{
+    font-size: 14px;
+    /* padding: 10px; */
+}
+
 textarea{
     display: flex;
     width: 100%;
-    margin-top: 20px;
+    height: 120px;
+    padding-top: 15px;
+    outline-color: rgba(158, 157, 157, 0.514);
+    border-radius: 6px;
+    border-style: none;
+    outline-style: solid;
+    outline-width: 1px;
+}
+textarea::placeholder{
+    padding-top: 3px;
+    padding-left: 8px;
+    font-size: 14px;
 }
 
 .contact-image img {
@@ -54,16 +93,30 @@ textarea{
 .message-btn{
     align-items: center;
     height: 80px;
-
 }
 .message-btn button{
-    margin-top: 20px;
-    margin-left: 180px;
-    width: 160px;
-    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 36%;
+    width: 30%;
+    height: 38px;
     align-items: center;
-    border-radius:4%;
+    border-radius:4px;
+    border-style: none;
     font-size: 14px;
-    background-color: rgba(252, 165, 4, 0.815);
-    /* background-color: rgba(51, 65, 78, 0.651);; */
+    padding-bottom: 30px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    background-color:  rgba(250, 166, 11, 0.822);
+    /* box-shadow: 0 3px 3px  rgba(250, 166, 11, 0.822); */
 }
+.message-btn button:hover{
+    cursor: pointer;
+}
+.form label{
+    text-align: left;
+}
+.iframe{
+    margin-top: 20px;
+}
+

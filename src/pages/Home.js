@@ -22,7 +22,7 @@ function Home(){
           <button onClick={() => {navigate ('/about')} }  type="button" className="btn btn-success mt-3"><b>Get Started</b></button> 
          </div>  */}
         </div>
-        <About />
+        {/* <About /> */}
         <Footer/>
         </>
   )

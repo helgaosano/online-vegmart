@@ -3,19 +3,29 @@
     border: 1px solid white;
     border-radius: 10px;
     color: #000000;
-    background-color:#d3d1d1;
+    /* background-color:rgba(182, 180, 180, 0.185); */
     margin: 6em;
     margin-left: 28em;
     margin-right: 28em;
-    border-radius: 2em;
+    border-radius: 0.8em;
+    border-color: #000000;
+    opacity: 0.8;
   }
+  
   .auth-form-container h2{
     text-align: center;
   }
   
+  .login-form a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+  }
   .auth-form-container, .login-form {
       display: flex;
       flex-direction: column;
+      
     }
   
   label {

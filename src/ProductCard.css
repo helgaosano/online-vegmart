@@ -17,7 +17,9 @@
     float: left;
     flex-direction: row; 
     display: block;
-    border-radius: 30px;
+    border-radius: 0.8em;
+}
+.card:hover{
 }
 
 .card img {
@@ -35,3 +37,9 @@
     color: grey;
 }
 
+.details button{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    height: 48px;
+    width: 52%;
+}

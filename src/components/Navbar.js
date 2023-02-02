@@ -16,20 +16,13 @@ function Navbar(){
             </div> 
             
             <div className="nav-components">    
-            <ul>
-                <li>
-                    <NavLink to="/"><b>HOME</b></NavLink>
-                </li>
-                <li>
-                    <NavLink to="/products">PRODUCTS</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/components/contact">CONTACT</NavLink>
-                </li>
-                <li>
-                     <NavLink to="/components/login">LOGIN</NavLink>
-                </li>
-            </ul>  
+                <ul>
+                    <a href="/">Home</a>
+                    <a href="/products">Products</a>
+                    <a href="/components/contact">Contacts</a>
+                    <a href="/components/about">Story</a>      
+                    <a href="/components/login">Login</a>  
+                </ul>  
             </div>
             
         </div>

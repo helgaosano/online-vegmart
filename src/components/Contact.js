@@ -28,37 +28,30 @@ const Contact = () => {
   return (
     <>
     <Navbar/>
-    <section>
-        <div className="contact-container">
-            {/* <div className="header">
-                <h2 className="new-title">Contact Us</h2>
-            </div> */}
+   <section>
+       <div className="super-container">
+               <div className="contact-header">
+                   {/* <h1>Contact Us</h1> */}
+                   <h2 className="new-title">Talk to Us</h2>
+               </div>
+           {/* <div className="contact-container"> */}
 
-            <div className="contact-image">
-                <img src="" alt="contact image"></img>
-            </div>
-
-            <form ref={form} onSubmit={sendEmail} className="form">
-            <div className="location">
-                    <h4>LOCATION: Nairobi, Kenya: TEL +254792596040</h4>
-                </div>
-
-                <label htmlFor="your_name">YOUR NAME</label>
-                <input type="text" placeholder="Your Name" name="your_name" required/>
-                <label htmlFor="email">EMAIL</label>
-                <input type="email" placeholder="Email" name="email" required/>
-                <label htmlFor="phone">PHONE</label>
-                <input type="text" placeholder="Phone" name="phone" required/>
-                <textarea type="text" name="your_message" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
-                <div className="message-btn">
-                    <button type="submit" ><b>SEND</b></button>
-                </div>
-            </form>
-
-        </div>
-    </section>
-    <Footer/>
-    </>
+               <form ref={form} onSubmit={sendEmail} className="form">
+                    <label>Your Name</label>
+                   <input type="text" placeholder="Your Name" name="your_name" required/>
+                   <label>Email</label>
+                   <input type="email" placeholder="Email" name="email" required/>
+                   <label>Phone Number</label>
+                   <input type="text" className="last-input" placeholder="Phone" name="phone" required/>
+                   <textarea type="text" name="your_message" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+                   <div className="message-btn">
+                       <button type="submit" ><b>SEND</b></button>
+                   </div>
+               </form>
+           </div>
+       {/* </div> */}
+   </section>
+   </>
   )
 }
 

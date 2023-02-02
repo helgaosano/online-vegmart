@@ -19,10 +19,13 @@
 
 .info {
     margin-top: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
 }
 .info p {
     font-size: 18px;
-    justify-content: space-around;
+
 }
 .image {
     display: flex;

@@ -1,13 +1,15 @@
 import React from 'react'
+import Navbar from './Navbar'
 import '../About.css'
 
 function About() {
   return (
-    
+    <>
+    <Navbar/>
     <div className="about-container">
     <div className="about">
         <div className="content">
-            <h2>About VegMart Organics</h2>
+            <h2>What to know about us</h2>
             <div className="info">
                 <p>
            VegMart is your one stop organic grocery store providing you with fresh farm products which are
@@ -27,6 +29,7 @@ function About() {
         </div>
     </div>
 </div>
+</>
 )
 }
   
