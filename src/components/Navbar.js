@@ -22,7 +22,9 @@ function Navbar(){
                         <a href="/">Home</a>
                         <a href="/products">Products</a>
                         <a href="/contact">Contacts</a>
-                        <a href="/about">Story</a>      
+                        {/* <a href="/about">Story</a>  */}
+                        <a href="/carts">Cart
+                        </a>     
                         <a href="/login">Login</a>  
                     </ul>  
                 </div>

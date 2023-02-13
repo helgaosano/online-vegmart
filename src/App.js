@@ -44,6 +44,7 @@ const handlerGetClickedItem = (event) =>{
       <Route path="/login" element={<Login  onLogin={handleLogin}/>} exact />
       <Route path="/contact" element={<Contact />}exact />
       <Route path="/about" element={<About />}exact />
+      <Route path="/products/:id" element={<Cart/>}exact />
 
     </Routes>
     {/* <Footer /> */}

@@ -39,9 +39,9 @@ nav {
       font-size: 18px;
       text-decoration: none;
       font-family:Georgia, 'Times New Roman', Times, serif;
-      color: rgba(7, 7, 7, 0.979);
+      /* color: rgba(7, 7, 7, 0.979); */
       opacity: 0.9;
-      
+      color: rgba(2, 14, 68, 0.938);
   }
   ul a:hover{
     color: orange;
@@ -67,4 +67,5 @@ nav {
 }
 .organics h2{
   opacity: 0.9;
+  color: rgba(2, 14, 68, 0.938);
 }

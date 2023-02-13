@@ -15,7 +15,10 @@ function Search({filter, OnSetFilter}){
 
   return (
     <div className='filters'>
-        <select className='filter-bar' value={filter} onChange={(event) => OnSetFilter(event.target.value === 0 ? "" : event.target.value)}>
+        <select className='filter-bar' value={filter} onChange={(event) => 
+            OnSetFilter(event.target.value === 0 ? "" : event.target.value)
+            }
+        >
             <option value={0}>Search by category</option>
             {Object.keys(category).length > 0 &&
             category.map((categories) => (

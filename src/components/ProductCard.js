@@ -15,8 +15,8 @@ function ProductCard({product, handlerGetClickedItem}){
         <h3>{product.name}</h3>
         <h6>Quantity: {product.quantity}</h6>
         <h6>Price: {product.price}</h6>
-        <h6>Description: {product.description}</h6>
-        <Button onClick={() => {handlerGetClickedItem(); navigate (`/carts`)}}  type="button" className="add-button">Add to cart</Button> 
+        {/* <h6>Description: {product.description}</h6> */}
+        <Button onClick={() => {navigate (`/products/${product.id}`)} }  type="button" className="add-button">Add to Cart</Button> 
       </div>
     </div>
     </>
