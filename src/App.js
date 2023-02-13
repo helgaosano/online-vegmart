@@ -39,12 +39,11 @@ const handlerGetClickedItem = (event) =>{
       {/* <Navbar/> */}
     <Routes>
       <Route path="/" element={<Home />} exact />
-      <Route path="/home/about" element={<About/>}exact/>
       <Route path="/products" element={<Products handleClickedItem={handlerGetClickedItem}/>}exact/>
       <Route path="/carts" element={<Cart/>}exact />
-      <Route path="/components/login" element={<Login  onLogin={handleLogin}/>} exact />
-      <Route path="/components/contact" element={<Contact />}exact />
-      <Route path="/components/about" element={<About />}exact />
+      <Route path="/login" element={<Login  onLogin={handleLogin}/>} exact />
+      <Route path="/contact" element={<Contact />}exact />
+      <Route path="/about" element={<About />}exact />
 
     </Routes>
     {/* <Footer /> */}

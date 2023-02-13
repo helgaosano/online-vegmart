@@ -1,7 +1,5 @@
 .card-container{
     border-style: dotted;
-    
-
 }
 .card {
     height: 50%;
@@ -42,4 +40,9 @@
     margin-bottom: 10px;
     height: 48px;
     width: 52%;
+}
+.add-button{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 30px;
 }

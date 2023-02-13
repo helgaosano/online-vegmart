@@ -16,7 +16,7 @@ function ProductCard({product, handlerGetClickedItem}){
         <h6>Quantity: {product.quantity}</h6>
         <h6>Price: {product.price}</h6>
         <h6>Description: {product.description}</h6>
-        <Button onClick={() => {handlerGetClickedItem(); navigate (`/carts`)}}  type="button" className="btn btn-success mt-3">Add to cart</Button> 
+        <Button onClick={() => {handlerGetClickedItem(); navigate (`/carts`)}}  type="button" className="add-button">Add to cart</Button> 
       </div>
     </div>
     </>

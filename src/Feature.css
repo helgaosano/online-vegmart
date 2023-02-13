@@ -1,0 +1,80 @@
+.feature{
+    background-color: rgb(224, 223, 223);
+    height: 1200px;
+    margin-bottom: 30px;
+}
+.feature h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(12, 12, 43);
+}
+.new-feature{   
+    display: flex;
+    height: 500px;
+    gap: 1px;
+}
+.card-heading{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgba(2, 2, 56, 0.966);
+}
+.cards{
+    background-color: white;
+    margin-top: 20px;
+    width: 26%;
+    height: 90%;
+    margin-left: 5%;
+    /* margin-right: 8%; */
+    margin-bottom: 60px;
+    /* border-radius: 8px; */
+    border: 20px;
+    box-shadow: 0 10px 15px rgba(0,0, 0, 0.2);      
+}
+.cards:hover{
+    box-shadow: 0 0 1rem 0.35rem rgba(0, 0, 0, 0.5);
+    filter: contrast(1.30);
+}
+.card-img-top{
+    height: 240px;
+    width: 100%;
+}
+.card-title{
+   font-size: 20px;
+   text-align: center;
+   color: black;
+   font-weight: 400px;
+}
+.card-text{
+    text-align:center;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.about-button{
+    border-style: solid;
+    cursor: pointer;
+    color: rgb(21, 21, 90);
+    font-size: 18px;
+    width: 200px;
+    background:none;
+    height: 60px;
+    border-radius: 4px;
+    margin-left: 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-button:hover{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    transition: 0.8s;
+    border-color: black;
+}
+.customer-review{
+    display: flex;
+}

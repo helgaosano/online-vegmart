@@ -31,15 +31,15 @@ function Footer() {
             </div>
             <div className="section2">
                 <h4 className="heading">Contact Us</h4>
-                <FaHome className="info" /> West End Place, Nairobi. <br/>
-                <FaPhoneAlt className="info" /> +(254) 792 596040 <br />
-                <FaEnvelope className="info" /> info@vegmart.co.ke <br />    
+                <FaHome className="info"/> Nairobi, Kenya <br/>
+                <FaPhoneAlt className="info"/> +(254) 700 222 0000 <br />
+                <FaEnvelope className="info"/> info@vegmart.co.ke <br />    
             </div>
         </div>
 
          <div className="footer-end">
             <div className="copyright">            
-                <p > <b>Tania Osano</b> @ All Rights Reserved 2023</p>
+                <p >Created by <b>Tania Osano</b> | All Rights Reserved</p>
             </div>
             
             {/* <div className="icons">
