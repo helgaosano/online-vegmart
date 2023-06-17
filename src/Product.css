@@ -26,7 +26,7 @@
 .filter-bar {
     background-color: white;
     /* border-color: 3px solid var(--blackish); */
-    border-radius: 50px;
+    border-radius: 8px;
     font-family: inherit;
     color: #7C7C7C;
     font-size: 1rem;

@@ -8,6 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import { useState, useEffect} from 'react';
+import Product from './Product';
 
 function App() {
 // login
@@ -29,7 +30,7 @@ function handleLogin(newLogin){
 
 
 const handlerGetClickedItem = (event) =>{
-    console.log(event)
+    
 }
 
 

@@ -7,7 +7,7 @@
 .Home{
   /* background-image: url("https://img.freepik.com/premium-photo/grocery-shopping-white-background-vegetables-fruits-juice-bottles-bread-paper-bags_439094-1.jpg?w=2000"); */
   background-image: url("https://media.istockphoto.com/id/1448720788/photo/food-banner-background-with-vegan-products-vegan-food-on-table-top-view-veganuary-concept.jpg?s=612x612&w=0&k=20&c=FDL6u4mIyzAH2o-6onJW14fJX01CBGToiHOf7rKw-xk=");
-  height: 60vh;
+  height: 80vh;
   background-repeat: no-repeat;
   background-size:cover;
 }
@@ -67,7 +67,7 @@ h2 {
 
 .container1{
   background-color: white;
-  margin-top: 40px;
+  background: rgb(235, 233, 233);
   align-items: center;
   align-content: space-between;
 }
@@ -88,7 +88,7 @@ font-size: 24px;
 
 .section1{
   margin-top: 30px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* background-color:rgb(163, 90, 1); */
   color: rgb(104, 103, 103);
   font-size: 16px;
@@ -105,21 +105,21 @@ font-size: 24px;
 
 .section2{
   margin-top: 30px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* background-color:rgb(163, 90, 1); */
   color: rgb(104, 103, 103);
   font-size: 16px;
   height: 250px;
   width: 80%;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .section2 p{
   padding-top: 20px;
   padding-bottom: 5px;
 }
-.info{
-  
+.contactus{
+  margin-top: 20px;
 }
 
 .footer-end{
@@ -142,7 +142,7 @@ font-size: 24px;
 .icons{
   margin-top: 20px;
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 10px;
   color: rgb(104, 103, 103);
 }
 .icons:hover{

@@ -40,10 +40,10 @@ input {
 button {
   border: none;
   background-color: #86BC42;
-  padding: 20px;
+  /* background-color: rgb(255, 165, 0); */
+  padding: 1rem;
   border-radius: 10px;
   cursor: pointer;
-  color: white;
 }
 
 .link {

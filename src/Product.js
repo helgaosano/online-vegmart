@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 
 const Product = ({handlerGetClickedItem}) => {
   // handling add to cart
-  const [products, setProducts] = useState([""]);
+  const [products, setProducts] = useState([]);
   
   useEffect(() => {
     fetch('http://localhost:3000/products')
@@ -38,7 +38,7 @@ return (
 
       <div className="cardinfo">
           {newArr.map((product) => (
-         (<ProductCard handleClickedItem={handlerGetClickedItem} product={product} key={product.id}/>)
+         (<ProductCard key={product.id} handleClickedItem={handlerGetClickedItem} product={product} />)
           ))}
       </div>
       </div> 

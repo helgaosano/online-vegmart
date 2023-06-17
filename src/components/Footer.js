@@ -12,7 +12,7 @@ function Footer() {
 
             <div className="section2">
                 <h4 className="heading">VegMart</h4>
-                <p>Your one stop organics store.</p>
+                <p>Your one stop organics store</p>
             </div>
 
             <div className="section1">
@@ -31,9 +31,11 @@ function Footer() {
             </div>
             <div className="section2">
                 <h4 className="heading">Contact Us</h4>
-                <FaHome className="info"/> Nairobi, Kenya <br/>
-                <FaPhoneAlt className="info"/> +(254) 700 222 0000 <br />
-                <FaEnvelope className="info"/> info@vegmart.co.ke <br />    
+                <div className='contactus'>
+                    <FaHome /> Nairobi, Kenya <br/><br/>
+                    <FaPhoneAlt /> +(254) 700 222 0000 <br/><br/>
+                    <FaEnvelope /> info@vegmart.co.ke <br/><br/>
+                </div>   
             </div>
         </div>
 
